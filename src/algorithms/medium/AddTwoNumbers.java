@@ -3,7 +3,9 @@ package algorithms.medium;
 import lombok.AllArgsConstructor;
 
 /**
- <a href="https://leetcode.com/problems/add-two-numbers/description/">...</a>
+    <a href="https://leetcode.com/problems/add-two-numbers/description/">...</a>
+
+    This solution beats 100% other Java submissions' runtimes
  */
 public class AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -14,11 +16,8 @@ public class AddTwoNumbers {
             return moveDanglingOne(l1);
         }
 
-        ListNode recursiveList;
-
         int value = l1.val + l2.val;
         if (value > 9) {
-            value = value % 10;
             if (l1.next != null) {
                 l1.next.val++;
             } else if (l2.next != null) {
@@ -27,9 +26,7 @@ public class AddTwoNumbers {
                 l1.next = new ListNode(1, null);
             }
         }
-        recursiveList = addTwoNumbers(l1.next, l2.next);
-
-        return new ListNode(value, recursiveList);
+        return new ListNode(value % 10, addTwoNumbers(l1.next, l2.next));
     }
 
     private ListNode moveDanglingOne(ListNode node) {
