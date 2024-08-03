@@ -1,4 +1,4 @@
-package algorithms;
+package algorithms.medium;
 
 import lombok.AllArgsConstructor;
 
