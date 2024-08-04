@@ -8,7 +8,7 @@ import java.util.Arrays;
  * This solution beats 54.32% other Java submissions' runtime
  */
 public class MakeTwoArraysEqualByReversingSubArrays {
-    public boolean canBeEqual(int[] target, int[] arr) {
+    public static boolean canBeEqual(int[] target, int[] arr) {
         Arrays.sort(arr);
         Arrays.sort(target);
         return Arrays.equals(arr, target);

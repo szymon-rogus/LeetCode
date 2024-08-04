@@ -8,7 +8,7 @@ import lombok.AllArgsConstructor;
     This solution beats 100% other Java submissions' runtimes
  */
 public class AddTwoNumbers {
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if (l1 == null) {
             return moveDanglingOne(l2);
         }
@@ -29,7 +29,7 @@ public class AddTwoNumbers {
         return new ListNode(value % 10, addTwoNumbers(l1.next, l2.next));
     }
 
-    private ListNode moveDanglingOne(ListNode node) {
+    private static ListNode moveDanglingOne(ListNode node) {
         if (node != null && node.val > 9) {
             if (node.next != null) {
                 node.next.val++;

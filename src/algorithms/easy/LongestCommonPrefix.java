@@ -6,7 +6,7 @@ package algorithms.easy;
  * This solution beats 74% other Java submissions' runtime
  */
 public class LongestCommonPrefix {
-    public String longestCommonPrefix(String[] strings) {
+    public static String longestCommonPrefix(String[] strings) {
         String reference = strings[0];
         for (int i = 0; i < reference.length(); i++) {
             for (String string : strings) {

@@ -9,7 +9,7 @@ import java.util.List;
  * This solution beats 100% other Java submissions' runtime
  */
 public class MedianOfTwoSortedArrays {
-    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+    public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int pointer1 = 0;
         int pointer2 = 0;
         int mergerPointer = 0;

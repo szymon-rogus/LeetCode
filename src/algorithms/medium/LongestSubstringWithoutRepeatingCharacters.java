@@ -9,7 +9,7 @@ import java.util.List;
  * This solution beats 5.01% other Java submissions' runtime
  */
 public class LongestSubstringWithoutRepeatingCharacters {
-    public int lengthOfLongestSubstring(String s) {
+    public static int lengthOfLongestSubstring(String s) {
         int maxSubstring = 0;
 
         List<Character> list = new ArrayList<>();
