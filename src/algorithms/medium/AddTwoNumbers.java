@@ -1,10 +1,9 @@
 package algorithms.medium;
 
-import lombok.AllArgsConstructor;
+import dataStrucutres.ListNode;
 
 /**
     <a href="https://leetcode.com/problems/add-two-numbers/description/">...</a>
-
     This solution beats 100% other Java submissions' runtimes
  */
 public class AddTwoNumbers {
@@ -39,12 +38,5 @@ public class AddTwoNumbers {
             }
         }
         return node;
-    }
-
-    @AllArgsConstructor
-    public static class ListNode {
-
-      int val;
-      ListNode next;
     }
 }
