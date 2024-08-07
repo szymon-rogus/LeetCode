@@ -9,10 +9,7 @@ import dataStrucutres.ListNode;
  */
 public class SwapNodesInPairs {
     public static ListNode swapPairs(ListNode head) {
-        if (head == null) {
-            return null;
-        }
-        if (head.next == null) {
+        if (head == null || head.next == null) {
             return head;
         }
 
