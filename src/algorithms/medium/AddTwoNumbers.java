@@ -3,8 +3,9 @@ package algorithms.medium;
 import dataStrucutres.ListNode;
 
 /**
-    <a href="https://leetcode.com/problems/add-two-numbers/description/">...</a>
-    This solution beats 100% other Java submissions' runtimes
+ * <a href="https://leetcode.com/problems/add-two-numbers/description/">...</a>
+ * This solution beats 26.25% other Java submissions' memory complexity
+ * This solution beats 100% other Java submissions' runtimes
  */
 public class AddTwoNumbers {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
