@@ -1,4 +1,4 @@
-package algorithms.easy;
+package algorithms.easy.tree;
 
 import dataStrucutres.TreeNode;
 

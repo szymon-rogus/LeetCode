@@ -1,8 +1,8 @@
-package algorithms.hard;
+package algorithms.hard.list;
 
 import dataStrucutres.ListNode;
 import java.util.Arrays;
-import static algorithms.easy.MergeTwoSortedLists.mergeTwoLists;
+import static algorithms.easy.list.MergeTwoSortedLists.mergeTwoLists;
 
 /**
  * <a href="https://leetcode.com/problems/merge-k-sorted-lists">...</a>
