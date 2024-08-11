@@ -8,6 +8,7 @@ import dataStrucutres.TreeNode;
  * This solution beats 100% other Java submissions' runtime
  */
 public class PathSum {
+
     public boolean hasPathSum(TreeNode root, int targetSum) {
         if (root == null) return false;
 

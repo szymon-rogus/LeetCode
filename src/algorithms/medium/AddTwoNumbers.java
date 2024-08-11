@@ -8,6 +8,7 @@ import dataStrucutres.ListNode;
  * This solution beats 100% other Java submissions' runtimes
  */
 public class AddTwoNumbers {
+
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if (l1 == null) {
             return moveDanglingOne(l2);

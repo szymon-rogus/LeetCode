@@ -8,6 +8,7 @@ import dataStrucutres.ListNode;
  * This solution beats 12.30% other Java submissions' runtime
  */
 public class RotateList {
+
     public ListNode rotateRight(ListNode head, int k) {
         if (head == null || head.next == null) return head;
         if (k == 0) return head;

@@ -8,6 +8,7 @@ import dataStrucutres.TreeNode;
  * This solution beats 80.58% other Java submissions' runtime
  */
 public class MinimumDepthOfBinaryTree {
+
     public static int minDepth(TreeNode root) {
         if (root == null) return 0;
         if (root.left == null && root.right == null) return 1;

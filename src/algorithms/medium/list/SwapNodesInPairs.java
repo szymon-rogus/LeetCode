@@ -8,6 +8,7 @@ import dataStrucutres.ListNode;
  * This solution beats 100% other Java submissions' runtime
  */
 public class SwapNodesInPairs {
+
     public static ListNode swapPairs(ListNode head) {
         if (head == null || head.next == null) {
             return head;

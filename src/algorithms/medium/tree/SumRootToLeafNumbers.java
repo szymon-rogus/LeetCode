@@ -8,6 +8,7 @@ import dataStrucutres.TreeNode;
  * This solution beats 100% other Java submissions' runtime
  */
 public class SumRootToLeafNumbers {
+
     public int sumNumbers(TreeNode root) {
         return root == null ? 0 : sumNumbers(root, 0);
     }

@@ -8,6 +8,7 @@ import java.util.Stack;
  * This solution beats 52.41% other Java submissions' runtime
  */
 public class ValidParentheses {
+
     public static boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
 

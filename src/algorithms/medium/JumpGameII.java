@@ -6,6 +6,7 @@ package algorithms.medium;
  * This solution beats 60.43% other Java submissions' runtime
  */
 public class JumpGameII {
+
     public static int jump(int[] nums) {
         int jumps = 0;
         int pointer = 0;

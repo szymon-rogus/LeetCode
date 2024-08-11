@@ -6,6 +6,7 @@ package algorithms.medium;
  * This solution beats 68.95% other Java submissions' runtime
  */
 public class ContainerWithMostWater {
+
     public static int maxArea(int[] height) {
         int pointer1 = 0;
         int pointer2 = height.length - 1;

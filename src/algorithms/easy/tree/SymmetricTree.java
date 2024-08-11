@@ -8,6 +8,7 @@ import dataStrucutres.TreeNode;
  * This solution beats 100% other Java submissions' runtime
  */
 public class SymmetricTree {
+
     public static boolean isSymmetric(TreeNode root) {
         if (root == null) return true;
 

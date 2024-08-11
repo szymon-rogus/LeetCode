@@ -8,6 +8,7 @@ import dataStrucutres.TreeNode;
  * This solution beats 100% other Java submissions' runtime
  */
 public class MaximumDepthOfBinaryTree {
+    
     public static int maxDepth(TreeNode root) {
         if (root == null) return 0;
 

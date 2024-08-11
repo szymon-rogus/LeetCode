@@ -8,6 +8,7 @@ import dataStrucutres.TreeNode;
  * This solution beats 100% other Java submissions' runtime
  */
 public class SumOfLeftLeaves {
+
     public static int sumOfLeftLeaves(TreeNode root) {
         if (root == null) return 0;
         if (root.left == null && root.right == null) return 0;

@@ -8,6 +8,7 @@ import dataStrucutres.TreeNode;
  * This solution beats 100% other Java submissions' runtime
  */
 public class SearchInABinarySearchTree {
+
     public static TreeNode searchBST(TreeNode root, int val) {
         if (root == null) return null;
         if (root.val == val) return root;

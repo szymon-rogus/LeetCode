@@ -6,6 +6,7 @@ package algorithms.easy;
  * This solution beats 100% other Java submissions' runtime
  */
 public class SearchInsertPosition {
+
     public static int searchInsert(int[] nums, int target) {
         if (nums[0] >= target) return 0;
         if (nums[nums.length - 1] < target) return nums.length;

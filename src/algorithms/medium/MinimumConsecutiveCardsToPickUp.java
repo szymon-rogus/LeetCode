@@ -9,6 +9,7 @@ import java.util.Map;
  * This solution beats 36.68% other Java submissions' runtime
  */
 public class MinimumConsecutiveCardsToPickUp {
+
     public static int minimumCardPickup(int[] cards) {
         int difference = cards.length + 1;
         Map<Integer, Integer> map = new HashMap<>();

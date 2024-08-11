@@ -6,6 +6,7 @@ package algorithms.medium;
  * This solution beats 99.56% other Java submissions' runtime
  */
 public class MaximumSubArray {
+
     public static int maxSubArray(int[] nums) {
         int sum = nums[0];
         int pointer = 0;

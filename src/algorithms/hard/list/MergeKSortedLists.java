@@ -10,6 +10,7 @@ import static algorithms.easy.list.MergeTwoSortedLists.mergeTwoLists;
  * This solution beats 75.43% other Java submissions' runtime
  */
 public class MergeKSortedLists {
+
     public ListNode mergeKLists(ListNode[] lists) {
         if (lists.length == 0) return null;
         if (lists.length == 1) return lists[0];

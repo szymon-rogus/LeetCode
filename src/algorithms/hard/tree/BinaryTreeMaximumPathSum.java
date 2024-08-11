@@ -10,6 +10,7 @@ import java.util.Stack;
  * This solution beats 13.50% other Java submissions' runtime
  */
 public class BinaryTreeMaximumPathSum {
+
     public static int maxPathSum(TreeNode root) {
         if (root == null) return 0;
 

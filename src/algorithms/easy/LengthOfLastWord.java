@@ -6,6 +6,7 @@ package algorithms.easy;
  * This solution beats 100% other Java submissions' runtime
  */
 public class LengthOfLastWord {
+
     public static int lengthOfLastWord(String s) {
         String trimedString = s.trim();
         int position = trimedString.lastIndexOf(' ');
