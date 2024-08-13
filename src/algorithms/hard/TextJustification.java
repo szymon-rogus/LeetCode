@@ -15,29 +15,29 @@ public class TextJustification {
 
         List<String> list = new LinkedList<>();
         List<String> line = new LinkedList<>();
-        String currentString = "";
+        StringBuilder currentString = new StringBuilder();
         for (String word : words) {
             if (currentString.isEmpty()) {
-                currentString += word;
+                currentString.append(word);
                 line.add(word);
             } else {
                 if (currentString.length() + 1 + word.length() <= maxWidth) {
-                    currentString = currentString + " " + word;
+                    currentString.append(" ").append(word);
                     line.add(word);
                 } else {
-                    currentString = adjust(line, maxWidth);
+                    currentString = new StringBuilder(adjust(line, maxWidth));
                     line.clear();
-                    list.add(currentString);
-                    currentString = word;
+                    list.add(currentString.toString());
+                    currentString = new StringBuilder(word);
                     line.add(word);
                 }
             }
         }
 
         if (!line.isEmpty()) {
-            currentString = adjust2(line, maxWidth);
+            currentString = new StringBuilder(adjust2(line, maxWidth));
             line.clear();
-            list.add(currentString);
+            list.add(currentString.toString());
         }
 
         return list;
@@ -68,15 +68,15 @@ public class TextJustification {
             }
         }
 
-        String string = "";
+        StringBuilder string = new StringBuilder();
         for (int i = 0; i < list.size(); i++) {
             if (i == list.size() - 1 && list.size() != 1) {
-                string = string + list.get(i);
+                string.append(list.get(i));
             } else {
-                string = string + list.get(i) + whiteBlocks.get(i);
+                string.append(list.get(i)).append(whiteBlocks.get(i));
             }
         }
-        return string;
+        return string.toString();
 
     }
 
@@ -98,10 +98,10 @@ public class TextJustification {
             }
         }
 
-        String string = "";
+        StringBuilder string = new StringBuilder();
         for (int i = 0; i < list.size(); i++) {
-            string = string + list.get(i) + whiteBlocks.get(i);
+            string.append(list.get(i)).append(whiteBlocks.get(i));
         }
-        return string;
+        return string.toString();
     }
 }
