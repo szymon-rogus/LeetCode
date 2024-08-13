@@ -9,7 +9,7 @@ import dataStrucutres.TreeNode;
  */
 public class RangeSumOfBST {
 
-    public int rangeSumBST(TreeNode root, int low, int high) {
+    public static int rangeSumBST(TreeNode root, int low, int high) {
         if (root == null) return 0;
 
         int val = root.val >= low && root.val <= high ? root.val : 0;
