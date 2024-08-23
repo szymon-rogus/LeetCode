@@ -1,7 +1,7 @@
 package algorithms.medium.tree;
 
+import dataStrucutres.Pair;
 import dataStrucutres.TreeNode;
-import lombok.AllArgsConstructor;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -14,35 +14,27 @@ import java.util.Stack;
  */
 public class BinaryTreeLevelOrderTraversal {
 
-    public List<List<Integer>> levelOrder(TreeNode root) {
+    public static List<List<Integer>> levelOrder(TreeNode root) {
         if (root == null) return new LinkedList<>();
 
         List<List<Integer>> list = new LinkedList<>();
-        Stack<Pair> stack = new Stack<>();
-        stack.push(new Pair(1, root));
+        Stack<Pair<Integer, TreeNode>> stack = new Stack<>();
+        stack.push(new Pair<>(1, root));
 
         while (!stack.isEmpty()) {
-            Pair pair = stack.pop();
+            Pair<Integer, TreeNode> pair = stack.pop();
 
-            if (list.size() < pair.level) {
+            if (list.size() < pair.first) {
                 List<Integer> newLevel = new LinkedList<>();
-                newLevel.add(pair.node.val);
+                newLevel.add(pair.second.val);
                 list.add(newLevel);
             } else {
-                list.get(pair.level - 1).add(pair.node.val);
+                list.get(pair.first - 1).add(pair.second.val);
             }
 
-            if (pair.node.right != null) stack.push(new Pair(pair.level + 1, pair.node.right));
-            if (pair.node.left != null) stack.push(new Pair(pair.level + 1, pair.node.left));
+            if (pair.second.right != null) stack.push(new Pair<>(pair.first + 1, pair.second.right));
+            if (pair.second.left != null) stack.push(new Pair<>(pair.first + 1, pair.second.left));
         }
         return list;
-    }
-
-    @AllArgsConstructor
-    private static class Pair {
-
-        public int level;
-
-        public TreeNode node;
     }
 }

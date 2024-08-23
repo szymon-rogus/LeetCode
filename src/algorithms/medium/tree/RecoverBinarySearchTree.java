@@ -13,7 +13,7 @@ import java.util.Stack;
  */
 public class RecoverBinarySearchTree {
 
-    public void recoverTree(TreeNode root) {
+    public static void recoverTree(TreeNode root) {
         List<Integer> list = new LinkedList<>();
         if (root == null) return;
 
@@ -58,7 +58,7 @@ public class RecoverBinarySearchTree {
         }
     }
 
-    private void inorderTraversal(TreeNode root, List<Integer> list) {
+    private static void inorderTraversal(TreeNode root, List<Integer> list) {
         if (root == null) return;
 
         inorderTraversal(root.left, list);
