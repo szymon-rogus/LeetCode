@@ -5,9 +5,14 @@ import dataStrucutres.TreeNode;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * <a href="https://leetcode.com/problems/minimum-distance-between-bst-nodes">...</a>
+ * This solution beats 91.70% other Java submissions' memory complexity
+ * This solution beats 15.03% other Java submissions' runtime
+ */
 public class MinimumDistanceBetweenBSTNodes {
 
-    public int minDiffInBST(TreeNode root) {
+    public static int minDiffInBST(TreeNode root) {
         List<Integer> list = new LinkedList<>();
 
         inorderTraversal(root, list);
@@ -21,7 +26,7 @@ public class MinimumDistanceBetweenBSTNodes {
         return diff;
     }
 
-    private void inorderTraversal(TreeNode root, List<Integer> list) {
+    private static void inorderTraversal(TreeNode root, List<Integer> list) {
         if (root == null) return;
 
         inorderTraversal(root.left, list);
