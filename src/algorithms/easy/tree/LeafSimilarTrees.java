@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Stack;
 
 /**
- * <a href="https://leetcode.com/problems/unique-binary-search-trees">...</a>
+ * <a href="https://leetcode.com/problems/leaf-similar-trees/">...</a>
  * This solution beats 27.50% other Java submissions' memory complexity
  * This solution beats 19.10% other Java submissions' runtime
  */

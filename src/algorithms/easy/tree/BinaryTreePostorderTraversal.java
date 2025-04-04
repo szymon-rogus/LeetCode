@@ -7,8 +7,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * <a href="https://leetcode.com/problems/binary-tree-preorder-traversal">...</a>
- * This solution beats 15.01% other Java submissions' memory complexity
+ * <a href="https://leetcode.com/problems/binary-tree-postorder-traversal">...</a>
+ * This solution beats 45.17% other Java submissions' memory complexity
  * This solution beats 100% other Java submissions' runtime
  */
 public class BinaryTreePostorderTraversal {
