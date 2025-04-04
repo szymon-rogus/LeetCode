@@ -4,7 +4,7 @@ import dataStrucutres.TreeNode;
 
 /**
  * <a href="https://leetcode.com/problems/same-tree">...</a>
- * This solution beats 47.70% other Java submissions' memory complexity
+ * This solution beats 83.61% other Java submissions' memory complexity
  * This solution beats 100% other Java submissions' runtime
  */
 public class SameTree {
@@ -13,9 +13,6 @@ public class SameTree {
         if (p == null && q == null) return true;
         if (p == null || q == null) return false;
 
-        if (p.val == q.val) {
-            return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
-        }
-        return false;
+        return p.val == q.val && isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
     }
 }
