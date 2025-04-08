@@ -1,7 +1,7 @@
 package algorithms.medium.tree;
 
-import dataStrucutres.Pair;
-import dataStrucutres.TreeNode;
+import dataStructures.Pair;
+import dataStructures.TreeNode;
 
 import java.util.LinkedList;
 import java.util.List;

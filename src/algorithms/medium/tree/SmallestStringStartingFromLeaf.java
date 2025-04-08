@@ -1,6 +1,6 @@
 package algorithms.medium.tree;
 
-import dataStrucutres.TreeNode;
+import dataStructures.TreeNode;
 
 /**
  * <a href="https://leetcode.com/problems/smallest-string-starting-from-leaf">...</a>

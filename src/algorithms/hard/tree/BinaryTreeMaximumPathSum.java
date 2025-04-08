@@ -1,6 +1,6 @@
 package algorithms.hard.tree;
 
-import dataStrucutres.TreeNode;
+import dataStructures.TreeNode;
 
 import java.util.Stack;
 

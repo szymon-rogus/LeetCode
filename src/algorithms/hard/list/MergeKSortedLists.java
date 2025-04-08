@@ -1,6 +1,6 @@
 package algorithms.hard.list;
 
-import dataStrucutres.ListNode;
+import dataStructures.ListNode;
 import java.util.Arrays;
 import static algorithms.easy.list.MergeTwoSortedLists.mergeTwoLists;
 

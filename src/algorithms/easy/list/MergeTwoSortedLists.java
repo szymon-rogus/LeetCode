@@ -1,6 +1,6 @@
 package algorithms.easy.list;
 
-import dataStrucutres.ListNode;
+import dataStructures.ListNode;
 
 /**
  * <a href="https://leetcode.com/problems/merge-two-sorted-lists">...</a>

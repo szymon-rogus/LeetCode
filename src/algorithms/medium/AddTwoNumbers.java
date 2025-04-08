@@ -1,6 +1,6 @@
 package algorithms.medium;
 
-import dataStrucutres.ListNode;
+import dataStructures.ListNode;
 
 /**
  * <a href="https://leetcode.com/problems/add-two-numbers/description/">...</a>

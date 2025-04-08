@@ -1,6 +1,6 @@
 package algorithms.easy.tree;
 
-import dataStrucutres.TreeNode;
+import dataStructures.TreeNode;
 
 /**
  * <a href="https://leetcode.com/problems/path-sum">...</a>

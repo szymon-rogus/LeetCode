@@ -1,4 +1,4 @@
-package dataStrucutres;
+package dataStructures;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;

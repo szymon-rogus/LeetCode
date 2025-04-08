@@ -1,6 +1,6 @@
 package algorithms.easy.tree;
 
-import dataStrucutres.TreeNode;
+import dataStructures.TreeNode;
 
 /**
  * <a href="https://leetcode.com/problems/search-in-a-binary-search-tree">...</a>

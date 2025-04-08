@@ -1,6 +1,6 @@
 package algorithms.medium.list;
 
-import dataStrucutres.ListNode;
+import dataStructures.ListNode;
 
 import java.util.LinkedList;
 import java.util.List;

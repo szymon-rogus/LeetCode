@@ -1,6 +1,6 @@
 package algorithms.medium.list;
 
-import dataStrucutres.ListNode;
+import dataStructures.ListNode;
 
 /**
  * <a href="https://leetcode.com/problems/swap-nodes-in-pairs/submissions">...</a>
