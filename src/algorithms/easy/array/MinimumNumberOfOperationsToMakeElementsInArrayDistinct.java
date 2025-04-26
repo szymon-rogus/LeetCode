@@ -1,4 +1,4 @@
-package algorithms.easy;
+package algorithms.easy.array;
 
 import java.util.LinkedList;
 import java.util.List;

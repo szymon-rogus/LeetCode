@@ -1,4 +1,4 @@
-package algorithms.medium;
+package algorithms.medium.matrix;
 
 /**
  * <a href="https://leetcode.com/problems/rotate-image">...</a>
@@ -8,7 +8,8 @@ package algorithms.medium;
 public class RotateImage {
 
     public static void rotate(int[][] matrix) {
-        // transpose
+
+        /// transpose
         for (int i = 0; i < matrix.length; i++) {
             for (int j = i + 1; j < matrix.length; j++) {
                 int temp = matrix[i][j];
@@ -17,7 +18,7 @@ public class RotateImage {
             }
         }
 
-        // reverse
+        /// reverse
         for (int i = 0; i < matrix.length; i++) {
             int pointerStart = 0;
             int pointerEnd = matrix.length - 1;

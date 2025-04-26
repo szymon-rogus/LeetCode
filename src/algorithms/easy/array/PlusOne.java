@@ -1,4 +1,4 @@
-package algorithms.easy;
+package algorithms.easy.array;
 
 /**
  * <a href="https://leetcode.com/problems/plus-one">...</a>

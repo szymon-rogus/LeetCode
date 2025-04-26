@@ -1,4 +1,4 @@
-package algorithms.easy;
+package algorithms.easy.array;
 
 /**
  * <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock">...</a>
@@ -7,6 +7,7 @@ package algorithms.easy;
  */
 public class BestTimeToBuyAndSellStock {
 
+    /// Greedy approach
     public int maxProfit(int[] prices) {
         int profit = 0;
         int buyPointer = 0;

@@ -1,4 +1,4 @@
-package algorithms.medium;
+package algorithms.medium.matrix;
 
 public class UniquePaths2 {
 

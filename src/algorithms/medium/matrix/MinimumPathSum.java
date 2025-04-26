@@ -1,4 +1,4 @@
-package algorithms.medium;
+package algorithms.medium.matrix;
 
 /**
  * <a href="https://leetcode.com/problems/minimum-path-sum">...</a>
@@ -10,6 +10,9 @@ public class MinimumPathSum {
     public static int minPathSum(int[][] grid) {
         for (int i = 0; i < grid.length; i++) {
             for (int j = 0; j < grid[i].length; j++) {
+
+                /// neat approach - for every cell we add to their value the cells which was before in the path
+                /// if we can reach the cell from left and top, we have to greedy decide which neighbour is smaller
                 if (i == 0 && j != 0) {
                     grid[i][j] += grid[i][j - 1];
                 } else if (i != 0 && j == 0) {

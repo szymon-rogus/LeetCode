@@ -1,4 +1,4 @@
-package algorithms.medium;
+package algorithms.medium.matrix;
 
 /**
  * <a href="https://leetcode.com/problems/rotating-the-box">...</a>

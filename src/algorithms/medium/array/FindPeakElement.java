@@ -1,4 +1,4 @@
-package algorithms.medium;
+package algorithms.medium.array;
 
 /**
  * <a href="https://leetcode.com/problems/find-peak-element">...</a>

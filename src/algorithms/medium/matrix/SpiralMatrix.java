@@ -1,4 +1,4 @@
-package algorithms.medium;
+package algorithms.medium.matrix;
 
 import java.util.LinkedList;
 import java.util.List;

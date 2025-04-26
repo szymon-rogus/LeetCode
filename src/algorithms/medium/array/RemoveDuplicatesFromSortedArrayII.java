@@ -1,4 +1,4 @@
-package algorithms.medium;
+package algorithms.medium.array;
 
 /**
  * <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii">...</a>
