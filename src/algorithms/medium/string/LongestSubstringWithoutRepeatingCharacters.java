@@ -1,4 +1,4 @@
-package algorithms.medium;
+package algorithms.medium.string;
 
 import java.util.ArrayList;
 import java.util.List;

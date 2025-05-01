@@ -1,4 +1,4 @@
-package algorithms.easy;
+package algorithms.easy.other;
 
 /**
  * <a href="https://leetcode.com/problems/count-symmetric-integers">...</a>

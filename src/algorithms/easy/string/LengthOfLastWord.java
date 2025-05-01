@@ -1,4 +1,4 @@
-package algorithms.easy;
+package algorithms.easy.string;
 
 /**
  * <a href="https://leetcode.com/problems/length-of-last-word">...</a>

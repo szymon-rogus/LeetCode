@@ -1,4 +1,4 @@
-package algorithms.medium;
+package algorithms.medium.other;
 
 /**
  * <a href="https://leetcode.com/problems/rectangle-area">...</a>

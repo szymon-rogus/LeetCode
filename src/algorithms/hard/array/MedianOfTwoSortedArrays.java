@@ -1,4 +1,4 @@
-package algorithms.hard;
+package algorithms.hard.array;
 
 import java.util.LinkedList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package algorithms.medium;
+package algorithms.medium.list;
 
 import dataStructures.ListNode;
 

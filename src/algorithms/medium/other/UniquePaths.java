@@ -1,4 +1,4 @@
-package algorithms.medium;
+package algorithms.medium.other;
 
 import java.math.BigInteger;
 
