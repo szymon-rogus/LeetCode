@@ -18,7 +18,7 @@ public class ValidAnagram {
             char sChar = s.charAt(i);
             char tChar = t.charAt(i);
 
-            /// from this String we add it's char existence in map
+            /// from this String we add its char existence in map
             if (!map.containsKey(sChar)) {
                 map.put(sChar, 1);
             } else {
