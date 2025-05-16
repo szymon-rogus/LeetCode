@@ -8,12 +8,12 @@ import java.util.LinkedHashMap;
  * This solution beats 47.82% other Java submissions' runtime
  */
 public class LRUCache {
-    LinkedHashMap<Integer, Integer> cache;
 
-    int capacity;
+    private final LinkedHashMap<Integer, Integer> cache = new LinkedHashMap<>();
+
+    private final int capacity;
 
     public LRUCache(int capacity) {
-        cache = new LinkedHashMap<>();
         this.capacity = capacity;
     }
 

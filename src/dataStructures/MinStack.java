@@ -20,13 +20,12 @@ public class MinStack {
         if (minStack.isEmpty()) {
             minStack.push(val);
             stack.push(val);
-            return;
+        } else {
+            int currentMin = minStack.peek();
+
+            minStack.push(Math.min(currentMin, val));
+            stack.push(val);
         }
-
-        int currentMin = minStack.peek();
-
-        minStack.push(Math.min(currentMin, val));
-        stack.push(val);
     }
 
     public void pop() {
