@@ -2,8 +2,8 @@ package algorithms.medium.array;
 
 /**
  * <a href="https://leetcode.com/problems/rotate-array">...</a>
- * This solution beats 92.93% other Java submissions' memory complexity
  * This solution beats 28.59% other Java submissions' runtime
+ * This solution beats 92.93% other Java submissions' memory complexity
  */
 public class RotateArray {
 

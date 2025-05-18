@@ -4,8 +4,8 @@ import dataStructures.TreeNode;
 
 /**
  * <a href="https://leetcode.com/problems/count-complete-tree-nodes">...</a>
- * This solution beats 60.29% other Java submissions' memory complexity
  * This solution beats 100% other Java submissions' runtime
+ * This solution beats 60.29% other Java submissions' memory complexity
  */
 public class CountCompleteTreeNodes {
 

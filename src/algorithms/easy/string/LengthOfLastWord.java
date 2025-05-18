@@ -2,8 +2,8 @@ package algorithms.easy.string;
 
 /**
  * <a href="https://leetcode.com/problems/length-of-last-word">...</a>
- * This solution beats 87.13% other Java submissions' memory complexity
  * This solution beats 100% other Java submissions' runtime
+ * This solution beats 87.13% other Java submissions' memory complexity
  */
 public class LengthOfLastWord {
 

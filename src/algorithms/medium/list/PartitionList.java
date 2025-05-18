@@ -7,8 +7,8 @@ import java.util.List;
 
 /**
  * <a href="https://leetcode.com/problems/partition-list/">...</a>
- * This solution beats 41.21% other Java submissions' memory complexity
  * This solution beats 5.18% other Java submissions' runtime
+ * This solution beats 41.21% other Java submissions' memory complexity
  */
 public class PartitionList {
 

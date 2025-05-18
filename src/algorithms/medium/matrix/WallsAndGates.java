@@ -2,8 +2,8 @@ package algorithms.medium.matrix;
 
 /**
  * <a href="https://leetcode.com/problems/walls-and-gates">...</a>
- * This solution beats 15.18% other Java submissions' memory complexity O(m*n)
  * This solution beats 92.64% other Java submissions' runtime O(m*n)
+ * This solution beats 15.18% other Java submissions' memory complexity O(m*n)
  */
 public class WallsAndGates {
 

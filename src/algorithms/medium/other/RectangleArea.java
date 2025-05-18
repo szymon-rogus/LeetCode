@@ -2,8 +2,8 @@ package algorithms.medium.other;
 
 /**
  * <a href="https://leetcode.com/problems/rectangle-area">...</a>
- * This solution beats 67.59% other Java submissions' memory complexity
  * This solution beats 100% other Java submissions' runtime
+ * This solution beats 67.59% other Java submissions' memory complexity
  */
 public class RectangleArea {
 

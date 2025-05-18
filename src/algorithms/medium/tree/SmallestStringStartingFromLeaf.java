@@ -4,8 +4,8 @@ import dataStructures.TreeNode;
 
 /**
  * <a href="https://leetcode.com/problems/smallest-string-starting-from-leaf">...</a>
- * This solution beats 52.40% other Java submissions' memory complexity
  * This solution beats 89.78% other Java submissions' runtime
+ * This solution beats 52.40% other Java submissions' memory complexity
  */
 public class SmallestStringStartingFromLeaf {
 

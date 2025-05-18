@@ -5,8 +5,8 @@ import java.util.Map;
 
 /**
  * <a href="https://leetcode.com/problems/rabbits-in-forest">...</a>
- * This solution beats 71.40% other Java submissions' memory complexity
  * This solution beats 31.03% other Java submissions' runtime
+ * This solution beats 71.40% other Java submissions' memory complexity
  */
 public class RabbitsInForest {
 
@@ -16,7 +16,7 @@ public class RabbitsInForest {
 
         /// The goal is to store the data in Map where:
         /// key = rabbits in the same color
-        /// value = how many answers of this ammount was given
+        /// value = how many answers of this amount was given
         /// so for pair 3 : 2, exactly 2 rabbits said "There are 2 rabbits in the same color as me in the forest"
         /// 2 answers given were put as value to map, key is 2 + 1 rabbits of one color
         /// (each rabbit said there are 2 more rabbits in the same color, so we have to increment this by the one who is giving the answer)

@@ -4,8 +4,8 @@ import dataStructures.ListNode;
 
 /**
  * <a href="https://leetcode.com/problems/swap-nodes-in-pairs/submissions">...</a>
- * This solution beats 77.39% other Java submissions' memory complexity
  * This solution beats 100% other Java submissions' runtime
+ * This solution beats 77.39% other Java submissions' memory complexity
  */
 public class SwapNodesInPairs {
 

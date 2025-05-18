@@ -6,8 +6,8 @@ import java.util.Stack;
 
 /**
  * <a href="https://leetcode.com/problems/path-sum-iii">...</a>
- * This solution beats 72.89% other Java submissions' memory complexity
  * This solution beats 41.07% other Java submissions' runtime
+ * This solution beats 72.89% other Java submissions' memory complexity
  */
 public class PathSumIII {
 

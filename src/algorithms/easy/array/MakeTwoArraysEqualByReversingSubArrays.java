@@ -5,10 +5,10 @@ import java.util.HashMap;
 
 /**
  * <a href="https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays">...</a>
- * This solution beats 24.11% other Java submissions' memory complexity in version1
  * This solution beats 54.32% other Java submissions' runtime in version1
- * This solution beats 79.93% other Java submissions' memory complexity in version2
+ * This solution beats 24.11% other Java submissions' memory complexity in version1
  * This solution beats 27.33% other Java submissions' runtime in version2
+ * This solution beats 79.93% other Java submissions' memory complexity in version2
  */
 public class MakeTwoArraysEqualByReversingSubArrays {
 

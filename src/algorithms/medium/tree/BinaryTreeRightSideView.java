@@ -7,8 +7,8 @@ import java.util.List;
 
 /**
  * <a href="https://leetcode.com/problems/binary-tree-right-side-view">...</a>
- * This solution beats 43.83% other Java submissions' memory complexity
  * This solution beats 71.22% other Java submissions' runtime
+ * This solution beats 43.83% other Java submissions' memory complexity
  */
 public class BinaryTreeRightSideView {
 

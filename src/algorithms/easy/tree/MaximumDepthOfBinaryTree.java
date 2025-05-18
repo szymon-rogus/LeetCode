@@ -4,8 +4,8 @@ import dataStructures.TreeNode;
 
 /**
  * <a href="https://leetcode.com/problems/maximum-depth-of-binary-tree">...</a>
- * This solution beats 15.39% other Java submissions' memory complexity
  * This solution beats 100% other Java submissions' runtime
+ * This solution beats 15.39% other Java submissions' memory complexity
  */
 public class MaximumDepthOfBinaryTree {
     

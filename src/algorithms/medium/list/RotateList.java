@@ -4,8 +4,8 @@ import dataStructures.ListNode;
 
 /**
  * <a href="https://leetcode.com/problems/merge-k-sorted-lists">...</a>
- * This solution beats 14.75% other Java submissions' memory complexity
  * This solution beats 12.30% other Java submissions' runtime
+ * This solution beats 14.75% other Java submissions' memory complexity
  */
 public class RotateList {
 

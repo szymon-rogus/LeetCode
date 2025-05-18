@@ -6,8 +6,8 @@ import static algorithms.easy.list.MergeTwoSortedLists.mergeTwoLists;
 
 /**
  * <a href="https://leetcode.com/problems/merge-k-sorted-lists">...</a>
- * This solution beats 8.66% other Java submissions' memory complexity
  * This solution beats 75.43% other Java submissions' runtime
+ * This solution beats 8.66% other Java submissions' memory complexity
  */
 public class MergeKSortedLists {
 

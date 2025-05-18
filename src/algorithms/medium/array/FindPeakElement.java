@@ -2,8 +2,8 @@ package algorithms.medium.array;
 
 /**
  * <a href="https://leetcode.com/problems/find-peak-element">...</a>
- * This solution beats 22.40% other Java submissions' memory complexity
  * This solution beats 100.00% other Java submissions' runtime
+ * This solution beats 22.40% other Java submissions' memory complexity
  */
 public class FindPeakElement {
 

@@ -4,8 +4,8 @@ import dataStructures.ListNode;
 
 /**
  * <a href="https://leetcode.com/problems/add-two-numbers/description/">...</a>
- * This solution beats 26.25% other Java submissions' memory complexity
  * This solution beats 100% other Java submissions' runtimes
+ * This solution beats 26.25% other Java submissions' memory complexity
  */
 public class AddTwoNumbers {
 

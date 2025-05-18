@@ -5,8 +5,8 @@ import java.util.Stack;
 
 /**
  * <a href="https://leetcode.com/problems/evaluate-reverse-polish-notation">...</a>
- * This solution beats 32.14% other Java submissions' memory complexity
  * This solution beats 72.79% other Java submissions' runtime
+ * This solution beats 32.14% other Java submissions' memory complexity
  */
 public class EvaluateReversePolishNotation {
 

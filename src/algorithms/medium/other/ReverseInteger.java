@@ -2,8 +2,8 @@ package algorithms.medium.other;
 
 /**
  * <a href="https://leetcode.com/problems/rectangle-area">...</a>
- * This solution beats 33.64% other Java submissions' memory complexity
  * This solution beats 11.89% other Java submissions' runtime
+ * This solution beats 33.64% other Java submissions' memory complexity
  */
 public class ReverseInteger {
 

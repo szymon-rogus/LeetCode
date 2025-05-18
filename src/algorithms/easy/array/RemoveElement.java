@@ -2,8 +2,8 @@ package algorithms.easy.array;
 
 /**
  * <a href="https://leetcode.com/problems/remove-element">...</a>
- * This solution beats 82.72% other Java submissions' memory complexity
  * This solution beats 100% other Java submissions' runtime
+ * This solution beats 82.72% other Java submissions' memory complexity
  */
 public class RemoveElement {
 

@@ -4,8 +4,8 @@ import dataStructures.TreeNode;
 
 /**
  * <a href="https://leetcode.com/problems/range-sum-of-bst">...</a>
- * This solution beats 94.15% other Java submissions' memory complexity
  * This solution beats 51.71% other Java submissions' runtime
+ * This solution beats 94.15% other Java submissions' memory complexity
  */
 public class RangeSumOfBST {
 

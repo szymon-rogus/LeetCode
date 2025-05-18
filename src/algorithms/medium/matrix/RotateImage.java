@@ -2,8 +2,8 @@ package algorithms.medium.matrix;
 
 /**
  * <a href="https://leetcode.com/problems/rotate-image">...</a>
- * This solution beats 58.60% other Java submissions' memory complexity
  * This solution beats 100% other Java submissions' runtime
+ * This solution beats 58.60% other Java submissions' memory complexity
  */
 public class RotateImage {
 

@@ -4,8 +4,8 @@ import java.util.HashMap;
 
 /**
  * <a href="https://leetcode.com/problems/two-sum">...</a>
- * This solution beats 30.31% other Java submissions' memory complexity
  * This solution beats 98.84% other Java submissions' runtime
+ * This solution beats 30.31% other Java submissions' memory complexity
  */
 public class TwoSum {
 

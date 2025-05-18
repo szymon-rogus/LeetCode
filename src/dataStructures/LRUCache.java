@@ -4,8 +4,8 @@ import java.util.LinkedHashMap;
 
 /**
  * <a href="https://leetcode.com/problems/lru-cache">...</a>
- * This solution beats 13.37% other Java submissions' memory complexity
  * This solution beats 47.82% other Java submissions' runtime
+ * This solution beats 13.37% other Java submissions' memory complexity
  */
 public class LRUCache {
 

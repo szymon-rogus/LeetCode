@@ -8,8 +8,8 @@ import java.util.Stack;
 
 /**
  * <a href="https://leetcode.com/problems/recover-binary-search-tree">...</a>
- * This solution beats 29.44% other Java submissions' memory complexity
  * This solution beats 6.85% other Java submissions' runtime
+ * This solution beats 29.44% other Java submissions' memory complexity
  */
 public class RecoverBinarySearchTree {
 

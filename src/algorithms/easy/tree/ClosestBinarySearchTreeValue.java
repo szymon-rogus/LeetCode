@@ -6,8 +6,8 @@ import java.util.Stack;
 
 /**
  * <a href="https://leetcode.com/problems/closest-binary-search-tree-value">...</a>
- * This solution beats 34.54% other Java submissions' memory complexity
  * This solution beats 100.00% other Java submissions' runtime
+ * This solution beats 34.54% other Java submissions' memory complexity
  */
 public class ClosestBinarySearchTreeValue {
 

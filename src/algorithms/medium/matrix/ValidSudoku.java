@@ -5,8 +5,8 @@ import java.util.List;
 
 /**
  * <a href="https://leetcode.com/problems/valid-sudoku">...</a>
- * This solution beats 26.20% other Java submissions' memory complexity
  * This solution beats 31.24% other Java submissions' runtime
+ * This solution beats 26.20% other Java submissions' memory complexity
  */
 public class ValidSudoku {
 

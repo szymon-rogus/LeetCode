@@ -5,8 +5,8 @@ import java.util.List;
 
 /**
  * <a href="https://leetcode.com/problems/palindrome-partitioning">...</a>
- * This solution beats 91.73% other Java submissions' memory complexity
  * This solution beats 14.69% other Java submissions' runtime
+ * This solution beats 91.73% other Java submissions' memory complexity
  */
 public class PalindromePartitioning {
 

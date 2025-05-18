@@ -2,8 +2,8 @@ package algorithms.medium.array;
 
 /**
  * <a href="https://leetcode.com/problems/minimum-size-subarray-sum">...</a>
- * This solution beats 6.17% other Java submissions' memory complexity
  * This solution beats 99.79% other Java submissions' runtime
+ * This solution beats 6.17% other Java submissions' memory complexity
  */
 public class MinimumSizeSubarraySum {
 

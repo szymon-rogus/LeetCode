@@ -2,8 +2,8 @@ package algorithms.medium.array;
 
 /**
  * <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii">...</a>
- * This solution beats 78.59% other Java submissions' memory complexity
  * This solution beats 100% other Java submissions' runtime
+ * This solution beats 78.59% other Java submissions' memory complexity
  */
 public class RemoveDuplicatesFromSortedArrayII {
 

@@ -4,8 +4,8 @@ import dataStructures.TreeNode;
 
 /**
  * <a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree">...</a>
- * This solution beats 73.07% other Java submissions' memory complexity
  * This solution beats 63.66% other Java submissions' runtime
+ * This solution beats 73.07% other Java submissions' memory complexity
  */
 public class LowestCommonAncestorOfABinaryTree {
 

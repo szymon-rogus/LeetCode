@@ -9,8 +9,8 @@ import java.util.Stack;
 
 /**
  * <a href="https://leetcode.com/problems/binary-tree-level-order-traversal">...</a>
- * This solution beats 57.31% other Java submissions' memory complexity
  * This solution beats 15.46% other Java submissions' runtime
+ * This solution beats 57.31% other Java submissions' memory complexity
  */
 public class BinaryTreeLevelOrderTraversal {
 

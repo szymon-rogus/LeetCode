@@ -4,8 +4,8 @@ import java.util.HashMap;
 
 /**
  * <a href="https://leetcode.com/problems/ransom-note">...</a>
- * This solution beats 26.53% other Java submissions' memory complexity
  * This solution beats 23.54% other Java submissions' runtime
+ * This solution beats 26.53% other Java submissions' memory complexity
  */
 public class ValidAnagram {
 

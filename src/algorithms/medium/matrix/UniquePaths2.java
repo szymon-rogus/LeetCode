@@ -4,8 +4,8 @@ public class UniquePaths2 {
 
     /**
      * <a href="https://leetcode.com/problems/unique-paths-ii">...</a>
-     * This solution beats 95.76% other Java submissions' memory complexity
      * This solution beats 100% other Java submissions' runtime
+     * This solution beats 95.76% other Java submissions' memory complexity
      */
     public static int uniquePathsWithObstacles(int[][] obstacleGrid) {
         if (obstacleGrid[0][0] == 1) return 0;

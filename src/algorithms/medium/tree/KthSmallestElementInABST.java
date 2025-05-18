@@ -7,8 +7,8 @@ import java.util.List;
 
 /**
  * <a href="https://leetcode.com/problems/recover-binary-search-tree">...</a>
- * This solution beats 15.51% other Java submissions' memory complexity
  * This solution beats 35.91% other Java submissions' runtime
+ * This solution beats 15.51% other Java submissions' memory complexity
  */
 public class KthSmallestElementInABST {
 

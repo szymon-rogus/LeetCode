@@ -5,8 +5,8 @@ import java.util.List;
 
 /**
  * <a href="https://leetcode.com/problems/median-of-two-sorted-arrays">...</a>
- * This solution beats 32.36% other Java submissions' memory complexity
  * This solution beats 100% other Java submissions' runtime
+ * This solution beats 32.36% other Java submissions' memory complexity
  */
 public class MedianOfTwoSortedArrays {
 

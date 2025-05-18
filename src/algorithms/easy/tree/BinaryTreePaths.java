@@ -7,8 +7,8 @@ import java.util.List;
 
 /**
  * <a href="https://leetcode.com/problems/binary-tree-paths">...</a>
- * This solution beats 67.08% other Java submissions' memory complexity
  * This solution beats 13.46% other Java submissions' runtime
+ * This solution beats 67.08% other Java submissions' memory complexity
  */
 public class BinaryTreePaths {
 

@@ -2,8 +2,8 @@ package algorithms.easy.array;
 
 /**
  * <a href="https://leetcode.com/problems/majority-element">...</a>
- * This solution beats 60.09% other Java submissions' memory complexity
  * This solution beats 99.89% other Java submissions' runtime
+ * This solution beats 60.09% other Java submissions' memory complexity
  */
 public class MajorityElement {
 

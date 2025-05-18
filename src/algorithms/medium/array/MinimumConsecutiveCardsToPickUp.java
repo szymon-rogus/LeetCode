@@ -5,8 +5,8 @@ import java.util.Map;
 
 /**
  * <a href="https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up">...</a>
- * This solution beats 26.73% other Java submissions' memory complexity
  * This solution beats 36.68% other Java submissions' runtime
+ * This solution beats 26.73% other Java submissions' memory complexity
  */
 public class MinimumConsecutiveCardsToPickUp {
 

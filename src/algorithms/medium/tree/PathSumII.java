@@ -7,8 +7,8 @@ import java.util.List;
 
 /**
  * <a href="https://leetcode.com/problems/path-sum-ii">...</a>
- * This solution beats 6.47% other Java submissions' memory complexity
  * This solution beats 5.14% other Java submissions' runtime
+ * This solution beats 6.47% other Java submissions' memory complexity
  */
 public class PathSumII {
 

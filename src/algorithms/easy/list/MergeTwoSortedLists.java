@@ -4,8 +4,8 @@ import dataStructures.ListNode;
 
 /**
  * <a href="https://leetcode.com/problems/merge-two-sorted-lists">...</a>
- * This solution beats 12.84% other Java submissions' memory complexity
  * This solution beats 100% other Java submissions' runtime
+ * This solution beats 12.84% other Java submissions' memory complexity
  */
 public class MergeTwoSortedLists {
 

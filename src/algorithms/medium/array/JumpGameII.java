@@ -2,8 +2,8 @@ package algorithms.medium.array;
 
 /**
  * <a href="https://leetcode.com/problems/jump-game-ii">...</a>
- * This solution beats 31.54% other Java submissions' memory complexity
  * This solution beats 60.43% other Java submissions' runtime
+ * This solution beats 31.54% other Java submissions' memory complexity
  */
 public class JumpGameII {
 

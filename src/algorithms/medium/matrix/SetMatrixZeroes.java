@@ -5,8 +5,8 @@ import java.util.Set;
 
 /**
  * <a href="https://leetcode.com/problems/set-matrix-zeroes">...</a>
- * This solution beats 15.95% other Java submissions' memory complexity
  * This solution beats 18.32% other Java submissions' runtime
+ * This solution beats 15.95% other Java submissions' memory complexity
  */
 public class SetMatrixZeroes {
 

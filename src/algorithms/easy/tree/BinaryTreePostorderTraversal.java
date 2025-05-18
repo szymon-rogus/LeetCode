@@ -8,8 +8,8 @@ import java.util.List;
 
 /**
  * <a href="https://leetcode.com/problems/binary-tree-postorder-traversal">...</a>
- * This solution beats 45.17% other Java submissions' memory complexity
  * This solution beats 100% other Java submissions' runtime
+ * This solution beats 45.17% other Java submissions' memory complexity
  */
 public class BinaryTreePostorderTraversal {
 

@@ -6,8 +6,8 @@ import java.util.Stack;
 
 /**
  * <a href="https://leetcode.com/problems/min-stack">...</a>
- * This solution beats 18.22% other Java submissions' memory complexity
  * This solution beats 97.30% other Java submissions' runtime
+ * This solution beats 18.22% other Java submissions' memory complexity
  */
 @NoArgsConstructor
 public class MinStack {

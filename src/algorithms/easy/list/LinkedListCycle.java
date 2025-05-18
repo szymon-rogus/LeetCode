@@ -4,8 +4,8 @@ import dataStructures.ListNode;
 
 /**
  * <a href="https://leetcode.com/problems/linked-list-cycle">...</a>
- * This solution beats 10.88% other Java submissions' memory complexity
  * This solution beats 100% other Java submissions' runtime
+ * This solution beats 10.88% other Java submissions' memory complexity
  */
 public class LinkedListCycle {
 

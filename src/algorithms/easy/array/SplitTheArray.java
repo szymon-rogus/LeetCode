@@ -4,8 +4,8 @@ import java.util.HashMap;
 
 /**
  * <a href="https://leetcode.com/problems/split-the-array">...</a>
- * This solution beats 31.20% other Java submissions' memory complexity
  * This solution beats 64.84% other Java submissions' runtime
+ * This solution beats 31.20% other Java submissions' memory complexity
  */
 public class SplitTheArray {
 

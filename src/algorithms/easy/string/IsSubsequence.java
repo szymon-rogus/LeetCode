@@ -2,8 +2,8 @@ package algorithms.easy.string;
 
 /**
  * <a href="https://leetcode.com/problems/is-subsequence">...</a>
- * This solution beats 9.74% other Java submissions' memory complexity
  * This solution beats 65.88% other Java submissions' runtime
+ * This solution beats 9.74% other Java submissions' memory complexity
  */
 public class IsSubsequence {
 

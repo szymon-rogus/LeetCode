@@ -6,8 +6,8 @@ import java.util.Stack;
 
 /**
  * <a href="https://leetcode.com/problems/binary-tree-maximum-path-sum">...</a>
- * This solution beats 46.52% other Java submissions' memory complexity
  * This solution beats 13.50% other Java submissions' runtime
+ * This solution beats 46.52% other Java submissions' memory complexity
  */
 public class BinaryTreeMaximumPathSum {
 

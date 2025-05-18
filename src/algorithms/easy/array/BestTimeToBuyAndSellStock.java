@@ -2,8 +2,8 @@ package algorithms.easy.array;
 
 /**
  * <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock">...</a>
- * This solution beats 96.58% other Java submissions' memory complexity
  * This solution beats 99.81% other Java submissions' runtime
+ * This solution beats 96.58% other Java submissions' memory complexity
  */
 public class BestTimeToBuyAndSellStock {
 

@@ -2,8 +2,8 @@ package algorithms.medium.matrix;
 
 /**
  * <a href="https://leetcode.com/problems/number-of-islands">...</a>
- * This solution beats 60.87% other Java submissions' memory complexity
  * This solution beats 99.77% other Java submissions' runtime
+ * This solution beats 60.87% other Java submissions' memory complexity
  */
 public class NumberOfIslands {
 

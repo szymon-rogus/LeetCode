@@ -5,8 +5,8 @@ import java.util.List;
 
 /**
  * <a href="https://leetcode.com/problems/pascals-triangle">...</a>
- * This solution beats 8.14% other Java submissions' memory complexity
  * This solution beats 85.17% other Java submissions' runtime
+ * This solution beats 8.14% other Java submissions' memory complexity
  */
 public class PascalTriangle {
 

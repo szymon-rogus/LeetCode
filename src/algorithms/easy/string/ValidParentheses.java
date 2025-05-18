@@ -4,8 +4,8 @@ import java.util.Stack;
 
 /**
  * <a href="https://leetcode.com/problems/valid-parentheses/submissions">...</a>
- * This solution beats 21.94% other Java submissions' memory complexity
  * This solution beats 52.41% other Java submissions' runtime
+ * This solution beats 21.94% other Java submissions' memory complexity
  */
 public class ValidParentheses {
 

@@ -2,8 +2,8 @@ package algorithms.easy.array;
 
 /**
  * <a href="https://leetcode.com/problems/plus-one">...</a>
- * This solution beats 44.86% other Java submissions' memory complexity
  * This solution beats 100% other Java submissions' runtime
+ * This solution beats 44.86% other Java submissions' memory complexity
  */
 public class PlusOne {
 

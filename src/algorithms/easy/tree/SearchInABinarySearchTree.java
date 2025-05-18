@@ -4,8 +4,8 @@ import dataStructures.TreeNode;
 
 /**
  * <a href="https://leetcode.com/problems/search-in-a-binary-search-tree">...</a>
- * This solution beats 16.60% other Java submissions' memory complexity
  * This solution beats 100% other Java submissions' runtime
+ * This solution beats 16.60% other Java submissions' memory complexity
  */
 public class SearchInABinarySearchTree {
 

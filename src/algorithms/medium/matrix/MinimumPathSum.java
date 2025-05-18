@@ -2,8 +2,8 @@ package algorithms.medium.matrix;
 
 /**
  * <a href="https://leetcode.com/problems/minimum-path-sum">...</a>
- * This solution beats 21.82% other Java submissions' memory complexity
  * This solution beats 31.85% other Java submissions' runtime
+ * This solution beats 21.82% other Java submissions' memory complexity
  */
 public class MinimumPathSum {
 

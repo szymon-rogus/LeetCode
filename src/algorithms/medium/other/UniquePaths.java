@@ -4,8 +4,8 @@ import java.math.BigInteger;
 
 /**
  * <a href="https://leetcode.com/problems/unique-paths">...</a>
- * This solution beats 5.36% other Java submissions' memory complexity
  * This solution beats 10.10% other Java submissions' runtime
+ * This solution beats 5.36% other Java submissions' memory complexity
  */
 public class UniquePaths {
 

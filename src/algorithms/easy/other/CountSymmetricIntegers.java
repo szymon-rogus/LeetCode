@@ -2,8 +2,8 @@ package algorithms.easy.other;
 
 /**
  * <a href="https://leetcode.com/problems/count-symmetric-integers">...</a>
- * This solution beats 80.52% other Java submissions' memory complexity
  * This solution beats 17.53% other Java submissions' runtime
+ * This solution beats 80.52% other Java submissions' memory complexity
  */
 public class CountSymmetricIntegers {
 

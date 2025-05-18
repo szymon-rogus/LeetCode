@@ -5,8 +5,8 @@ import java.util.List;
 
 /**
  * <a href="https://leetcode.com/problems/text-justification">...</a>
- * This solution beats 5.61% other Java submissions' memory complexity
  * This solution beats 5.54% other Java submissions' runtime
+ * This solution beats 5.61% other Java submissions' memory complexity
  */
 public class TextJustification {
 

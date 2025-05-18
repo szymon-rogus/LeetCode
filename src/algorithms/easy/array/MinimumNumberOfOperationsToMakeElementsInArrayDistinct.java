@@ -5,8 +5,8 @@ import java.util.List;
 
 /**
  * <a href="https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct">...</a>
- * This solution beats 30.00% other Java submissions' memory complexity
  * This solution beats 33.59% other Java submissions' runtime
+ * This solution beats 30.00% other Java submissions' memory complexity
  */
 public class MinimumNumberOfOperationsToMakeElementsInArrayDistinct {
 

@@ -4,8 +4,8 @@ import java.util.Stack;
 
 /**
  * <a href="https://leetcode.com/problems/simplify-path">...</a>
- * This solution beats 10.14% other Java submissions' memory complexity
  * This solution beats 17.74% other Java submissions' runtime
+ * This solution beats 10.14% other Java submissions' memory complexity
  */
 public class SimplifyPath {
 

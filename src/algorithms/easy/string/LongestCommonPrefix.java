@@ -2,8 +2,8 @@ package algorithms.easy.string;
 
 /**
  * <a href="https://leetcode.com/problems/longest-common-prefix">...</a>
- * This solution beats 12.47% other Java submissions' memory complexity
  * This solution beats 74% other Java submissions' runtime
+ * This solution beats 12.47% other Java submissions' memory complexity
  */
 public class LongestCommonPrefix {
 

@@ -4,8 +4,8 @@ import java.util.HashMap;
 
 /**
  * <a href="https://leetcode.com/problems/word-pattern">...</a>
- * This solution beats 66.57% other Java submissions' memory complexity
  * This solution beats 100.00% other Java submissions' runtime
+ * This solution beats 66.57% other Java submissions' memory complexity
  */
 public class WordPattern {
 

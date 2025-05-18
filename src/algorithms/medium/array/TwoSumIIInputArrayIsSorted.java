@@ -2,8 +2,8 @@ package algorithms.medium.array;
 
 /**
  * <a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted">...</a>
- * This solution beats 64.69% other Java submissions' memory complexity
  * This solution beats 93.12% other Java submissions' runtime
+ * This solution beats 64.69% other Java submissions' memory complexity
  */
 public class TwoSumIIInputArrayIsSorted {
 

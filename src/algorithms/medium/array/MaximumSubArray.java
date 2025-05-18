@@ -2,8 +2,8 @@ package algorithms.medium.array;
 
 /**
  * <a href="https://leetcode.com/problems/maximum-subarray">...</a>
- * This solution beats 13.11% other Java submissions' memory complexity
  * This solution beats 99.56% other Java submissions' runtime
+ * This solution beats 13.11% other Java submissions' memory complexity
  */
 public class MaximumSubArray {
 

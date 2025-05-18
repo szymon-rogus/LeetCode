@@ -6,8 +6,8 @@ import java.util.Stack;
 
 /**
  * <a href="https://leetcode.com/problems/flatten-binary-tree-to-linked-list">...</a>
- * This solution beats 78.05% other Java submissions' memory complexity
  * This solution beats 22.62% other Java submissions' runtime
+ * This solution beats 78.05% other Java submissions' memory complexity
  */
 public class FlattenBinaryTreeToLinkedList {
 

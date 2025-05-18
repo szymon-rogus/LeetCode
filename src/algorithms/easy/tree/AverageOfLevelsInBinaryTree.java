@@ -7,8 +7,8 @@ import java.util.List;
 
 /**
  * <a href="https://leetcode.com/problems/average-of-levels-in-binary-tree">...</a>
- * This solution beats 88.75% other Java submissions' memory complexity
  * This solution beats 26.15% other Java submissions' runtime
+ * This solution beats 88.75% other Java submissions' memory complexity
  */
 public class AverageOfLevelsInBinaryTree {
 

@@ -4,8 +4,8 @@ import dataStructures.TreeNode;
 
 /**
  * <a href="https://leetcode.com/problems/minimum-depth-of-binary-tree">...</a>
- * This solution beats 76% other Java submissions' memory complexity
  * This solution beats 80.58% other Java submissions' runtime
+ * This solution beats 76% other Java submissions' memory complexity
  */
 public class MinimumDepthOfBinaryTree {
 
