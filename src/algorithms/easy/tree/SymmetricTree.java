@@ -18,10 +18,8 @@ public class SymmetricTree {
     private static boolean isSymmetric(TreeNode rootLeft, TreeNode rootRight) {
         if (rootLeft == null && rootRight == null) return true;
         if (rootLeft == null || rootRight == null) return false;
-
-        if (rootLeft.val == rootRight.val) {
-            return isSymmetric(rootLeft.left, rootRight.right) && isSymmetric(rootLeft.right, rootRight.left);
-        }
-        return false;
+        if (rootLeft.val != rootRight.val) return false;
+        return isSymmetric(rootLeft.left, rootRight.right) &&
+                isSymmetric(rootLeft.right, rootRight.left);
     }
 }
