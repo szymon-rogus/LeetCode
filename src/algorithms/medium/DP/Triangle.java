@@ -35,7 +35,7 @@ public class Triangle {
             }
             previousRow = row;
             if (i == triangle.size() - 1) {
-                result = previousRow.stream().min(Integer::compare).get();
+                result = previousRow.stream().min(Integer::compare).orElse(result);
             }
         }
         return result;
