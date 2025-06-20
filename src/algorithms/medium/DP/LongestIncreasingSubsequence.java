@@ -3,7 +3,7 @@ package algorithms.medium.DP;
 import java.util.Arrays;
 
 /**
- * <a href="https://leetcode.com/problems/triangle">...</a>
+ * <a href="https://leetcode.com/problems/longest-increasing-subsequence">...</a>
  * This solution beats 46.32% other Java submissions' runtime
  * This solution beats 76.88% other Java submissions' memory complexity
  */
