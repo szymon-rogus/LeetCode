@@ -1,7 +1,7 @@
 package algorithms.easy.DP;
 
 /**
- * <a href="https://leetcode.com/problems/majority-element">...</a>
+ * <a href="https://leetcode.com/problems/fibonacci-number">...</a>
  * This solution beats 100.00% other Java submissions' runtime
  * This solution beats 11.59% other Java submissions' memory complexity
  */
