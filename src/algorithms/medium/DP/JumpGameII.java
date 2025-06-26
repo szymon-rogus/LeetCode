@@ -1,4 +1,4 @@
-package algorithms.medium.array;
+package algorithms.medium.DP;
 
 /**
  * <a href="https://leetcode.com/problems/jump-game-ii">...</a>
