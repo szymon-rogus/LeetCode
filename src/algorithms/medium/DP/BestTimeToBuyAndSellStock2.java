@@ -8,22 +8,15 @@ package algorithms.medium.DP;
 public class BestTimeToBuyAndSellStock2 {
 
     public int maxProfit(int[] prices) {
+
+        ///  greedy approach - we are adding to solution any local changes when the price is going up
         int profit = 0;
-        int buyPointer = 0;
-        int sellPointer = 0;
 
-        for (int i = 0; i < prices.length; i++) {
-            /// when we pass local maximum, we have to sell it on the passed local maximum - greedy approach
-            if (prices[i] <= prices[sellPointer]) {
-                profit += prices[sellPointer] - prices[buyPointer];
-                buyPointer = i;
+        for (int i = 1; i < prices.length; i++) {
+            if (prices[i] > prices[i - 1]) {
+                profit += prices[i] - prices[i - 1];
             }
-            /// sellPointer will always follow iteration
-            sellPointer = i;
         }
-
-        /// in case we reached the end of loop but has not time to sell due to lack of local maximum (end of right neighbor)
-        if (sellPointer > buyPointer) profit += prices[sellPointer] - prices[buyPointer];
 
         return profit;
     }
