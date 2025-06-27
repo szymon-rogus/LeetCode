@@ -1,4 +1,4 @@
-package algorithms.easy.array;
+package algorithms.easy.DP;
 
 /**
  * <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock">...</a>
